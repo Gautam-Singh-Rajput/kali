@@ -22,17 +22,19 @@ Install the NetHunter-Store app from store.nethunter.com
 
 From the NetHunter Store, install Termux, NetHunter-KeX client, and Hacker’s keyboard Note: The button “install” may not change to “installed” in the store client after installation - just ignore it. Starting termux for the first time may seem stuck while displaying “installing” on some devices - just hit enter.
 
-Open Termux and type:
+Open Termux and type: 
 
-# `termux-setup-storage`
+Kali wont 15Gb storage in your phone.
 
-# `pkg install wget`
+`termux-setup-storage`
 
-# `wget -O install-nethunter-termux https://offs.ec/2MceZWr`
+`pkg install wget`
 
-# `chmod +x install-nethunter-termux`
+`wget -O install-nethunter-termux https://offs.ec/2MceZWr`
 
-# `./install-nethunter-termux`
+`chmod +x install-nethunter-termux`
+
+`./install-nethunter-termux`
 
 start kali in termux type :- `nh`
 
